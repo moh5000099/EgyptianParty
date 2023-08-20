@@ -1,0 +1,69 @@
+header{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    font-size: 4rem;
+}
+
+.itemHead{
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+.itemBody{
+    background-color: #ccc;
+    display: none;
+}
+.item h2{
+    font-size: 1.5rem;
+}
+.item p{
+    font-size: 0.85rem;
+}
+.first{
+    display: block;
+}
+
+
+.event{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url(images/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.icons i{
+    height: 40px;
+    width: 40px;
+    border: solid 1px #ccc;
+    text-align: center;
+    line-height: 160%;
+    cursor: pointer;
+}
+.icons i:hover{
+    border-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    background-color: rgba(214, 46, 51);
+}
+
+.bar{
+    min-width: 20%;
+    left: -269.797px;
+}
+.bar a{
+    transition: color 0.25s 0s ease;
+}
+.bar a:hover{
+    color: rgba(214, 46, 51) !important;
+}
+.bar span{
+    cursor: pointer;
+    transition: color 0.25s 0s ease;
+}
+.bar span:hover{
+    color: rgba(214, 46, 51) !important;
+}
+.open{
+    left:0;
+    cursor: pointer;
+}
+
